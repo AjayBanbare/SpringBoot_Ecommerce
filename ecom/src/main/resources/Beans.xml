@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+     
+
+
+  <bean id="Electronic" class="com.ecom.ecom.ElectronicsItem">
+      <constructor-arg name = "pName"  value="Speaker" />
+      <constructor-arg name = "pType" value="Bluetooth speaker" />
+    </bean> 
+     <bean id="Electronic1" class="com.ecom.ecom.ElectronicsItem">
+      <constructor-arg name = "pName"  value="Washing Machine" />
+      <constructor-arg name = "pType" value="Top load" />
+    </bean> 
+  
+  
+  
+   <bean id="Clothing" class="com.ecom.ecom.Clothes">
+    <property name = "pName" value = "Pant" ></property>
+    <property name = "pType" value = "Half pant" ></property>
+   </bean> 
+
+   <bean id="Clothing1" class="com.ecom.ecom.Clothes">
+    <property name = "pName" value = "Shirt" ></property>
+    <property name = "pType" value = "Half sleeves" ></property>
+   </bean>     
+        
+
+</beans>
